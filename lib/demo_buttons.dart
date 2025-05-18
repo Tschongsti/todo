@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class DemoButtons extends StatefulWidget{
-  const DemoButtons ({super.key});
+class DemoButtons extends StatefulWidget {
+  const DemoButtons({super.key});
 
   @override
-  State<DemoButtons> createState () {
+  State<DemoButtons> createState() {
     return _DemoButtonsState();
   }
 }
@@ -41,6 +41,6 @@ class _DemoButtonsState extends State<DemoButtons> {
         ),
         if (_isUnderstood) const Text('Awesome!'),
       ],
-    );     
+    );
   }
 }

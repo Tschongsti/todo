@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'package:flutter_internals/demo_buttons.dart';
 
 class UIUpdatesDemo extends StatelessWidget {
@@ -7,7 +6,7 @@ class UIUpdatesDemo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print('UIUpdates Demo BUILD called');
+    print('UIUpdatesDemo BUILD called');
     return const Padding(
       padding: EdgeInsets.all(8.0),
       child: Center(
@@ -26,7 +25,7 @@ class UIUpdatesDemo extends StatelessWidget {
               textAlign: TextAlign.center,
             ),
             SizedBox(height: 24),
-            Expanded(child: DemoButtons()),
+            DemoButtons(),
           ],
         ),
       ),
